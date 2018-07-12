@@ -6,7 +6,7 @@ import com.example.annotationinterface.MyInterFace;
         id = "dog",
         type = Animal.class
 )
-public class Dog implements Animal{
+public class Dog implements Animal {
     @Override
     public String getName() {
         return "Dog";
